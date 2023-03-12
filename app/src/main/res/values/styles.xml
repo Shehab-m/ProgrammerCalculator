@@ -33,6 +33,7 @@
         <item name="android:textSize">22sp</item>
         <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
         <item name="android:inputType">number</item>
+        <item name="android:maxLength">18</item>
 
     </style>
 
@@ -78,6 +79,7 @@
         <item name="android:textSize">22sp</item>
         <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
         <item name="android:inputType">text</item>
+        <item name="android:maxLength">18</item>
     </style>
 
     <style name="EditTextStyle.InputText.Hexadecimal">
