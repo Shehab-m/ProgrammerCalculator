@@ -164,5 +164,4 @@ class MainActivity : AppCompatActivity() {
         editTextHexadecimal = findViewById(R.id.text_input_layout_hexadecimal)
         buttonClear = findViewById(R.id.button_clear)
     }
-
 }
