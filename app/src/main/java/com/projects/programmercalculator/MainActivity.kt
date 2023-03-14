@@ -150,14 +150,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-//    private fun areAllEditTextNotEmpty(): Boolean {
-//        return (editTextBinary.text.isNotEmpty()
-//                || editTextOctal.text.isNotEmpty()
-//                || editTextDecimal.text.isNotEmpty()
-//                || editTextHexadecimal.editText?.text?.isNotEmpty() == true)
-//    }
-
-
     private fun clearEditTextInputs() {
         editTextBinary.editText?.text?.clear()
         editTextOctal.editText?.text?.clear()
