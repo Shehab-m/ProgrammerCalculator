@@ -7,7 +7,6 @@
         <item name="android:strokeWidth">3</item>
     </style>
 
-
     <style name="EditTextStyle">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">60dp</item>
@@ -15,30 +14,27 @@
         <item name="android:gravity">center</item>
         <item name="android:textSize">22sp</item>
         <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
+
     </style>
 
     <style name="EditTextStyle.InputNumber">
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">60dp</item>
-        <item name="android:background">@drawable/round_edittext</item>
-        <item name="android:gravity">center</item>
-        <item name="android:textSize">22sp</item>
-        <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
         <item name="android:inputType">number</item>
         <item name="android:maxLength">18</item>
-
     </style>
 
     <style name="EditTextStyle.InputNumber.Binary">
         <item name="android:digits">"01"</item>
+        <item name="android:maxLength">63</item>
     </style>
 
     <style name="EditTextStyle.InputNumber.Octal">
         <item name="android:digits">"01234567"</item>
+        <item name="counterMaxLength">21</item>
     </style>
 
     <style name="EditTextStyle.InputNumber.Decimal">
         <item name="android:digits">"0123456789."</item>
+        <item name="counterMaxLength">18</item>
     </style>
 
     <style name="EditTextStyle.InputText">
@@ -46,14 +42,12 @@
         <item name="android:layout_height">60dp</item>
         <item name="android:background">@drawable/round_edittext</item>
         <item name="android:gravity">center</item>
-        <item name="android:textSize">22sp</item>
-        <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
         <item name="android:inputType">text</item>
-        <item name="android:maxLength">18</item>
     </style>
 
     <style name="EditTextStyle.InputText.Hexadecimal">
         <item name="android:digits">"0123456789abcdefABCDEF"</item>
+        <item name="android:maxLength">15</item>
     </style>
 
     <style name="ButtonClear">
@@ -86,6 +80,10 @@
 
     <style name="TextInputLayout">
         <item name="android:background">@drawable/round_edittext</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_shape</item>
+        <item name="colorControlActivated">@color/blue</item>
+        <item name="colorControlHighlight">@color/blue</item>
+        <item name="colorControlNormal">@color/blue</item>
     </style>
 
 
