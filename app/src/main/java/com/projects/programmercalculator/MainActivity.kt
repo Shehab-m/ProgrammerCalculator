@@ -162,7 +162,7 @@ class MainActivity : AppCompatActivity() {
         editTextOctal = findViewById(R.id.text_input_layout_octal)
         editTextDecimal = findViewById(R.id.text_input_layout_decimal)
         editTextHexadecimal = findViewById(R.id.text_input_layout_hexadecimal)
-        buttonClear = findViewById(R.id.btn_clear)
+        buttonClear = findViewById(R.id.button_clear)
     }
 
 }
