@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Programmer Calculator</string>
+    <string name="help_text">Enter a number then press convert to see the results</string>
 </resources>
